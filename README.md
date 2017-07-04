@@ -1,5 +1,5 @@
 
-* step 1: get code from 
+* step 1: get code git clone git@github.com:Charlotte1018/ACTWebApp.git
 
 * step 2: `npm i` to install node_modules
 
