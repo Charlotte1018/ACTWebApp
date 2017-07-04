@@ -1,0 +1,27 @@
+{
+  "name": "webpack-learn",
+  "description": "learing webpack",
+  "authors": [
+    "charlotte"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "webpack"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "angular-ui-router": "^0.3.0",
+    "material-design-lite": "^1.3.0",
+    "font-awesome": "^4.7.0",
+    "angular-translate": "^2.15.2"
+  }
+}
