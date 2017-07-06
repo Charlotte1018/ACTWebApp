@@ -1115,7 +1115,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 h3.timeline-title {
     margin: 0;
-    color: #C8CCD7;
+    color: grey;
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 5px;
@@ -1123,7 +1123,7 @@ h3.timeline-title {
 }
 
 .t-info {
-    color: #C8CCD7;
+    color: grey;
 }
 
 .timeline-item:before, .timeline-item.alt:after {
@@ -1267,6 +1267,7 @@ h3.timeline-title {
     text-align: right;
     top: 12px;
     width: 150px;
+    color: #999999;
 }
 
 .timeline-desk h5 span {
@@ -1289,6 +1290,7 @@ h3.timeline-title {
 .timeline-desk p {
     font-size: 12px;
     margin-bottom: 0;
+    color:grey;
 }
 
 .timeline-desk a {

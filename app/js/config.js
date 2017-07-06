@@ -1,7 +1,8 @@
 angular.module('webApp', [
     'ui.router',
     'pascalprecht.translate',
-    'routerModule'
+    'routerModule',
+    'ui.bootstrap'
 ])
     .config(function ($urlRouterProvider) {
         $urlRouterProvider.when("/", "app");

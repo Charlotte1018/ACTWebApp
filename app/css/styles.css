@@ -160,7 +160,7 @@ a img{
 
 .android-be-together-section {
   position: relative;
-  height: 800px;
+  height: 100%;
   width: auto;
   background: url('../images/01.jpg') center 30% no-repeat;
   background-color: #f3f3f3;
@@ -198,7 +198,8 @@ a img{
 .android-screen-section {
   position: relative;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
 .android-screens {
@@ -290,9 +291,9 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('../images/02.jpg') center top no-repeat;
+  /*background: url('../images/01.jpg') center top no-repeat;*/
   background-size: cover;
-  height: 800px;
+  height: 600px;
 }
 
 .android-wear-band {
@@ -300,12 +301,13 @@ a img{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #37474f;
+  background-color: #d3f0ee;
 }
 
 .android-wear-band-text {
-  max-width: 800px;
-  margin-left: 25%;
+  width: 100%;
+  height: 100%;
+  margin-left: 0%;
   padding: 24px;
   text-align: left;
   color: white;
@@ -350,10 +352,11 @@ a img{
 }
 
 .android-customized-section-text {
+  color:grey;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 16px 0 16px;
+  padding: 20px 16px 0 16px;
 }
 
   .android-customized-section-text p {
@@ -361,13 +364,13 @@ a img{
   }
 
 .android-customized-section-image {
-  background: url('../images/devices.jpg') center top no-repeat;
+  background: url('../images/slide01.jpg') center  no-repeat;
   background-size: cover;
   height: 400px;
 }
 
 .android-more-section {
-  padding: 80px 0;
+  padding: 20px 0;
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
@@ -491,7 +494,7 @@ a img{
   }
 
   .android-be-together-section {
-    height: 350px;
+    height: 100%;
   }
 
   .android-slogan {
@@ -528,6 +531,11 @@ a img{
     display: none;
   }
 }
-.mdl-mini-footer{
-  background-color: #f8fafc;
+.mdl-mega-footer{
+  background-color: #555555;
 }
+
+.box-shadow{
+  box-shadow: 10px 10px 5px #888888;
+}
+div.tip{padding:10px;margin:10px;height:100%;}
