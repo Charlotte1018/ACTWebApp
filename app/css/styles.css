@@ -1,6 +1,7 @@
 /*三张背景图需要更改165,293,364*/
 body {
   margin: 0;
+  background-color: white;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -556,5 +557,18 @@ div.tip{padding:10px;margin:10px;height:100%;}
 opacity:0;
 }
 .mdl-layout__header{
-  background-color: grey;
+  background-color: #1f2d3d;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+  /*margin: 0 auto;*/
+}
+.demo-card-square > .mdl-card__title {
+  color: black;
+  /*background:*/
+    /*url('../images/01_p.png') bottom right 15% no-repeat;*/
+}
+.fa-blue{
+  color:#58c9f3;
 }
