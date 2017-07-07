@@ -551,3 +551,7 @@ div.tip{padding:10px;margin:10px;height:100%;}
   height: 5px;
   color: #58c9f3;
 }
+
+.transparent{
+opacity:0;
+}
