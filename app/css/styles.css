@@ -539,3 +539,15 @@ a img{
   box-shadow: 10px 10px 5px #888888;
 }
 div.tip{padding:10px;margin:10px;height:100%;}
+
+.hr-time{
+  border: 1px solid #58c9f3;
+  width: 600px;
+  height:4px;
+  background-color: #58c9f3;
+}
+.time-arrow{
+  width: 5px;
+  height: 5px;
+  color: #58c9f3;
+}
