@@ -724,6 +724,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .state-overview .symbol, .state-overview .value {
     display: inline-block;
     text-align: center;
+    border-radius: 50%;
 }
 
 .state-overview .value  {

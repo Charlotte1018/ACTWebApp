@@ -301,7 +301,7 @@ a img{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #d3f0ee;
+  background-color: white;
 }
 
 .android-wear-band-text {
@@ -364,7 +364,7 @@ a img{
   }
 
 .android-customized-section-image {
-  background: url('../images/slide01.jpg') center  no-repeat;
+  /*background: url('../images/slide01.jpg') center  no-repeat;*/
   background-size: cover;
   height: 400px;
 }
@@ -536,7 +536,7 @@ a img{
 }
 
 .box-shadow{
-  box-shadow: 10px 10px 5px #888888;
+  /*box-shadow: 10px 10px 5px #888888;*/
 }
 div.tip{padding:10px;margin:10px;height:100%;}
 
@@ -554,4 +554,7 @@ div.tip{padding:10px;margin:10px;height:100%;}
 
 .transparent{
 opacity:0;
+}
+.mdl-layout__header{
+  background-color: grey;
 }
