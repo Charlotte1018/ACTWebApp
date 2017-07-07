@@ -51,36 +51,85 @@
     </div>
 
     <div class="android-content mdl-layout__content">
-        <!--第一页-->
-        <div id="1" class="android-be-together-section mdl-typography--text-center">
-            <!--<section class="wrapper">
-                <div class="row state-overview">
-                    <div class="col-lg-3 col-sm-6 col-lg-offset-1">
+        <div id="2" class="android-screen-section mdl-typography--text-center">
+            <section class=" ">
+                <div class="row">
+                    <div class="col-lg-12">
                         <section class="panel">
-                            <div class="symbol terques">
-                                <i class="fa fa-user"></i>
-                            </div>
-                            <div class="value">
-                                <h1>22</h1>
-                                <p>New Users</p>
+                            <header class="panel-heading">
+                                <h3>AC Token：这是码以科技发布的代币。</h3>
+                            </header>
+                            <div class="panel-body profile-activity">
+                                <section class="wrapper">
+                                    <div class="row state-overview">
+                                        <div class="col-lg-3 col-sm-6 ">
+                                            <section class="panel">
+                                                <div class="symbol terques">
+                                                    <i class="fa">{{h}}</i>
+                                                </div>
+                                                <div class="value">
+                                                    <p>Days</p>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 ">
+                                            <section class="panel">
+                                                <div class="symbol terques">
+                                                    <i class="fa">{{h}}</i>
+                                                </div>
+                                                <div class="value">
+                                                    <p>Hours</p>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 ">
+                                            <section class="panel">
+                                                <div class="symbol terques">
+                                                    <i class="fa">{{m}}</i>
+                                                </div>
+                                                <div class="value">
+                                                    <p>Minutes</p>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6 ">
+                                            <section class="panel">
+                                                <div class="symbol terques">
+                                                    <i class="fa">{{s}}</i>
+                                                </div>
+                                                <div class="value">
+                                                    <p>Seconds</p>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div>
+                                        合约地址：
+                                        <a href="https://etherscan.io/address/0x3B95634cc0321fB9B20Ba685eB36da5c7603D1cf" >0x3B95634cc0321fB9B20Ba685eB36da5c7603D1cf</a>
+                                    </div>
+                                    <div>
+                                        <img class="" src="app/images/invest2.png">
+                                        <div>
+                                        码以ICO使用以太坊合约进行众筹，大家可以用IMToken、MyEtherWallet、MetaMask、Mist进行投资
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-success">ACToken 合约代码</button>
+                                        <button type="button" class="btn btn-success">使用以太坊钱包投资步骤</button>
+                                    </div>
+                                </section>
                             </div>
                         </section>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <section class="panel">
-                            <div class="symbol red">
-                                <i class="fa fa-tags"></i>
-                            </div>
-                            <div class="value">
-                                <h1>140</h1>
-                                <p>Sales</p>
-                            </div>
-                        </section>
-                    </div>
-
 
                 </div>
-            </section>-->
+            </section>
+
+        </div>
+        <!--第一页-->
+        <div id="1" class="android-be-together-section mdl-typography--text-center">
             <section class="wrapper ">
                 <div class="row">
                     <div class="col-lg-5 col-lg-offset-1">
@@ -94,7 +143,7 @@
                                       <i class="fa fa-shopping-cart"></i>
                                   </span>
                                     <div class="activity-desk">
-                                        <div class="panel">
+                                        <div class="panel text-left">
                                             <div class="panel-body">
                                                 <div class="arrow"></div>
                                                 <i class="fa fa-time"></i>
@@ -110,7 +159,7 @@
                                   </span>
                                     <div class="activity-desk">
                                         <div class="panel">
-                                            <div class="panel-body">
+                                            <div class="panel-body text-right">
                                                 <div class="arrow-alt"></div>
                                                 <i class=" fa fa-time"></i>
                                                 <h4>企业文化</h4>
@@ -126,7 +175,7 @@
                                   </span>
                                     <div class="activity-desk">
                                         <div class="panel">
-                                            <div class="panel-body">
+                                            <div class="panel-body text-left">
                                                 <div class="arrow"></div>
                                                 <i class=" fa fa-time"></i>
                                                 <h4>公司产品</h4>
@@ -143,7 +192,7 @@
                                   </span>
                                     <div class="activity-desk">
                                         <div class="panel">
-                                            <div class="panel-body">
+                                            <div class="panel-body text-right">
                                                 <div class="arrow-alt"></div>
                                                 <i class=" fa fa-time"></i>
                                                 <h4>
@@ -166,109 +215,7 @@
 
         </div>
         <!--第2页-->
-        <div id="2" class="android-screen-section mdl-typography--text-center">
-            <!--<div class="mdl-typography--display-1-color-contrast">距离众筹结束还有：</div>-->
-            <!--<h4>{{h}}:{{m}}:{{s}}</h4>-->
-            <section class=" ">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <section class="panel">
-                            <header class="panel-heading">
-                                <h3>AC Token：这是码以科技发布的代币。</h3>
-                                <h4>距离众筹结束还有：</h4>
-                            </header>
 
-                            <div class="panel-body profile-activity">
-                                <!--<div class="activity terques">
-                                    <span>
-                                      <i class="fa fa-shopping-cart"></i>
-                                  </span>
-
-                                </div>
-                                <div class="activity alt purple">
-                                    <span>
-                                      <i class="fa fa-rocket"></i>
-                                  </span>
-
-                                </div>
-                                <div class="activity blue">
-                                    <span>
-                                      <i class="fa fa-bullhorn"></i>
-                                  </span>
-
-                                </div>
-                                <div class="activity alt green">
-                                    <span>
-                                      <i class="fa fa-beer"></i>
-                                  </span>
-
-                                </div>-->
-                                <section class="wrapper">
-                                    <div class="row state-overview">
-                                        <div class="col-lg-3 col-sm-6 ">
-                                            <section class="panel">
-                                                <div class="symbol yellow">
-                                                    <i class="fa">{{h}}</i>
-                                                </div>
-                                                <div class="value">
-                                                    <h1>：</h1>
-                                                    <p>Days</p>
-                                                </div>
-                                            </section>
-                                        </div>
-                                        <div class="col-lg-3 col-sm-6 ">
-                                            <section class="panel">
-                                                <div class="symbol terques">
-                                                    <i class="fa">{{h}}</i>
-                                                </div>
-                                                <div class="value">
-                                                    <h1>：</h1>
-                                                    <p>Hours</p>
-                                                </div>
-                                            </section>
-                                        </div>
-                                        <div class="col-lg-3 col-sm-6 ">
-                                            <section class="panel">
-                                                <div class="symbol red">
-                                                    <i class="fa">{{m}}</i>
-                                                </div>
-                                                <div class="value">
-                                                    <h1>：</h1>
-                                                    <p>Minutes</p>
-                                                </div>
-                                            </section>
-                                        </div>
-                                        <div class="col-lg-3 col-sm-6 ">
-                                            <section class="panel">
-                                                <div class="symbol blue">
-                                                    <i class="fa">{{s}}</i>
-                                                </div>
-                                                <div class="value">
-                                                    <h1 style="color:white;">:</h1>
-                                                    <p>Seconds</p>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <button type="button" class="btn btn-shadow btn-round btn-lg btn-success" ng-click="isCollapsed = !isCollapsed">投资</button>
-                                    <hr>
-                                    <div uib-collapse="isCollapsed">
-                                        <div class="well well-lg col-sm-6 col-sm-offset-3">
-                                            <!--Some content-->
-                                            <img class="" src="app/images/invest.jpg">
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </section>
-                    </div>
-
-                </div>
-            </section>
-
-        </div>
 
         <!--第3页-->
         <div id="3" class="android-wear-section">
@@ -698,9 +645,11 @@
 
 
         <footer id="7" class="mdl-mega-footer ">
-            <div class=" col-lg-offset-6"><h3>联系我们</h3></div>
+            <div class=" col-lg-offset-6">
+                <h3>联系我们</h3>
+            </div>
             <div class="mdl-mega-footer--middle-section col-lg-offset-4">
-                
+
                 <div class="mdl-mega-footer--drop-down-section">
                     <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
                     <h1 class="mdl-mega-footer--heading">Features</h1>
@@ -731,7 +680,7 @@
                         <li><a href="#">Contracts</a></li>
                     </ul>
                 </div>
-                
+
             </div>
         </footer>
 
